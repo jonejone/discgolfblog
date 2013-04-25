@@ -1,3 +1,6 @@
 A blog for me to keep track of my developments as a disc golf player.
 
 All content files are in norwegian.
+
+The blog is generated using Pelican on http://treningsblogg.caddybok.no
+And since it's only static files, it's hosted on S3 (Ireland).
