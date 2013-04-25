@@ -1,22 +1,28 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-AUTHOR = u'Jone Eide'
+AUTHOR = u'Jone'
 SITENAME = u'Disc Golf utviklingsblogg'
-SITEURL = ''
+SITEURL = 'http://treningsblogg.caddybok.no'
 
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'no'
+DISQUS_SITENAME = 'discgolfutviklingsblogg'
+GOOGLE_ANALYTICS = 'UA-36863156-2'
 
 # Blogroll
-LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-          ('Python.org', 'http://python.org'),
-          ('Jinja2', 'http://jinja.pocoo.org'),
-          ('You can modify those links in your config file', '#'),)
+LINKS =  (('Frisbeegolf.no', 'http://www.frisbeegolf.no'),
+          ('Caddybok', 'http://www.caddybok.no'),
+          ('DiscTourney', 'http://www.disctourney.com'),
+          ('Discgolfgutta', 'http://discgolfgutta.com'),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = ()
+
+PLUGINS = [
+    'pelican.plugins.gravatar',
+]
 
 DEFAULT_PAGINATION = 10
